@@ -1,0 +1,36 @@
+Assignment
+Question 1: What is Git, and what problem does it solve in the context of software development?
+Question 2: Explain the difference between Git and GitHub.
+Question 3: Describe the basic workflow for using Git for version control.
+Question 4: What is a Git repository? How does it store and manage versions of files?
+Question 5: What is a commit in Git? What information does a commit include?
+Question 6: Explain the concept of branching in Git. How can branching be useful in collaborative development?
+
+Answers
+1. Git can be referred as application software used by programmers to store and write codes before being pushed to the github its supports branching (pointing to the latest commit in the git repository)
+1b.Solved problems
+i) Allows multiple developers to work simultaneously on a project without disturbing or hindering each other from working at their own pace and speed
+ii) Tracks changes that are made to the files either by adding, deleting or modifying.
+iii) It makes it easier to merge codes and resolve conflicts
+iv) It provides tools for code review (pull request) allowing members to provide feedback propose and discuss changes before merging the codes into the main codebase.
+In conclusion Git is a powerful tool for efficient and collaborative software development.
+
+2. i- git is software where codes are being written while github is a place where code is being hosted
+
+3. BASIC WORKFLOW FOR USING GIT
+i) git init
+ii) git add.
+iii) git status
+iv) git commit -m "preferred description"
+If this is your first time of committing follow this step
+v) git config --global user.email "email address"
+vi) git config --global user.name "username"
+vii) git commit -m "preferred description"
+
+4. A Git repository is the folder inside a project. This repository tracks all changes made to files in your project, it’s a folder where all files are stored.
+4b. this is done by creating history of commit. Commit is generally explained as a snapshot of codes therefore any changes made to the files (either by adding, deleting or modifications) is being saved and stored, therefore git respiratory tracks every slightest action or changes made to the files.
+
+5. Commit is a snapshot of your codes. Commit includes changes made to a code either by adding or deleting files
+5b. A commit incudes adding, deleting, and modifying files 
+6. Branching in Git means creating a separate line of development it gives a programmer the ability to work on new features like bug fixing without affecting the main codebase
+6b. Branching allows programmers to work differently and simultaneously with no need to wait for each other, branching gives each programmer the ability to create their own branch and write their own codes make changes if necessary test codes for any error make corrections once they are all done with their codes then they merge the codes together in other words branching gives programmer to work differently and separately without having to disrupt other programmers work (codes)  
